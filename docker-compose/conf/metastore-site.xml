@@ -18,15 +18,15 @@
     </property>
     <property>
         <name>javax.jdo.option.ConnectionURL</name>
-        <value>jdbc:postgresql://postgres:5432/hive_db</value>
+        <value>jdbc:postgresql://postgres:5432/airflow</value>
     </property>
     <property>
         <name>javax.jdo.option.ConnectionUserName</name>
-        <value>admin</value>
+        <value>postgres</value>
     </property>
     <property>
         <name>javax.jdo.option.ConnectionPassword</name>
-        <value>admin</value>
+        <value>airflow</value>
     </property>
     <!-- <property>
         <name>metastore.try.direct.sql.ddl</name>
